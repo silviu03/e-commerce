@@ -104,7 +104,25 @@ header .nav-wrapper {
     margin: 0 auto;
     height: 80px;
     font-weight: bold;
+    position: relative;
 }
+.drop-down-categories {
+    position: absolute;
+    top: 66px;
+    left: 0;
+    background-color: red;
+}
+.sub-category {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 78px;
+    background-color: blue;
+}
+.category:hover .sub-category{
+    display: block;
+}
+
 header .nav-wrapper > div:first-child {
     width: 250px;
     height: 50px;
@@ -512,5 +530,7 @@ footer > div > div:last-child .contact-nr {
     font-weight: bold;
 }
 
-
+.hidden {
+    display: none;
+}
 
