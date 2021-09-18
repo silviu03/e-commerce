@@ -472,6 +472,9 @@ header .nav-wrapper a {
     padding: 10px 20px;
     cursor: pointer;
 }
+.section-6 button:hover {
+    background-color: rgb(185, 26, 26);
+}
 footer {
     height: 280px;
     background-color: rgb(19, 24, 80);

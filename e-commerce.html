@@ -19,7 +19,7 @@
     <meta name="author" content="Nebunu Silviu">
     <link rel="stylesheet" href="../bundles/font.awesome/fontawesome-free-5.15.4-web/css/all.css">
 
-    <script src="./"></script>
+    <script src="./bundles/jquery/jquery-3.6.0.min.js"></script>
 </head>
 
 <body>
@@ -278,7 +278,6 @@
             <nav>
                 <div>
                     <span>Home</span>
-                    <a href="#"><i class="fas fa-chevron-down"></i></a>
                 </div>
                 <div>
                     <span>Shop</span>
@@ -286,7 +285,6 @@
                 </div>
                 <div>
                     <span>Blog</span>
-                    <a href="#"><i class="fas fa-chevron-down"></i></a>
                 </div>
                 <span>About Us</span>
                 <span>Contact Us</span>
@@ -488,7 +486,12 @@
             </div>
             <div>
                 <input type="text" id="subscribe" name="subscribe" placeholder="Subscribe">
-                <button>Subscribe</button>
+                <button class="subscribe">Subscribe</button>
+                <div class="subscribe-pop-up hidden">
+                    <div>
+
+                    </div>
+                </div>
             </div>
         </section>
 
