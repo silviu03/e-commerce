@@ -104,26 +104,57 @@ header .nav-wrapper {
     margin: 0 auto;
     height: 80px;
     font-weight: bold;
-    position: relative;
 }
 .drop-down-categories {
     position: absolute;
-    top: 66px;
+    top: 49px;
     left: 0;
-    background-color: red;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-10px);
+    transition: opacity 200ms ease-in-out, transform 200ms ease-in-out;
+}
+header .drop-down:hover .drop-down-categories {
+    opacity: 1 ;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+.category {
+    width: 200px;
+    height: 40px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.category i {
+    margin-right: 15px;
+}
+.category:hover {
+    background-color: rgb(240, 240, 240);
+}
+.category:hover .sub-category{
+    display: block;
 }
 .sub-category {
     display: none;
     position: absolute;
     top: 0;
-    left: 78px;
-    background-color: blue;
+    left: 200px;
+    background-color: rgb(240, 240, 240);
 }
-.category:hover .sub-category{
-    display: block;
+.sub-category > div {
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
 }
-
-header .nav-wrapper > div:first-child {
+.sub-category > div i {
+    margin-left: 15px;
+}
+header .drop-down {
+    position: relative;
     width: 250px;
     height: 50px;
     border-radius: 5px;
@@ -132,12 +163,13 @@ header .nav-wrapper > div:first-child {
     justify-content: center;
     align-items: center;
 }
-header .nav-wrapper > div:first-child a {
+
+header .nav-wrapper .drop-down a {
     text-decoration: none;
     color: rgb(19, 24, 80);
     font-size: 18px;
 }
-header .nav-wrapper > div:first-child i {
+header .nav-wrapper #chart {
     margin-right: 15px;
     transform: rotate(90deg);
 }
