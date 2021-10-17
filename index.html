@@ -17,7 +17,7 @@
     <meta name="description" content="Front end development course">
     <meta name="keywords" content="HTML,CSS,Learning">
     <meta name="author" content="Nebunu Silviu">
-    <link rel="stylesheet" href="../bundles/font.awesome/fontawesome-free-5.15.4-web/css/all.css">
+    <link rel="stylesheet" href="./bundles/font.awesome/fontawesome-free-5.15.4-web/css/all.min.css">
 
     <script src="./bundles/jquery/jquery-3.6.0.min.js"></script>
 </head>
@@ -485,9 +485,21 @@
                 <span>Newsletter and get updates</span>
                 <span>Sign up for our newsletter in, get regular update news</span>
             </div>
+            <div class="subscribe-overlay hidden">
+                <div class="overlay-wrapper">
+                    <h2>Subscribe</h2>
+                    <div class="envelope"><img src="./poze/pngwing.com-removebg-preview.png" alt="red envelope"></div>
+                    <span>Subscribe to get the lates <span>news & updates</span>.</span>
+                    <div class="input-wrapper">
+                        <input type="email" id="subscribe-input" name="subscribe" placeholder="Your email address">
+                        <button type="submit" id="subscribe-btn-overlay">Subscribe</button>
+                    </div>
+                    <div class="close-subscribe-overlay"><i class="fas fa-times"></i></div>
+                </div> 
+            </div>
             <div>
                 <input type="text" id="subscribe" name="subscribe" placeholder="Subscribe">
-                <button class="subscribe">Subscribe</button>
+                <button id="subscribe-btn">Subscribe</button>
                 <div class="subscribe-pop-up hidden">
                     <div>
 
