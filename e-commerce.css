@@ -665,6 +665,9 @@ footer > div > div:last-child .contact-nr {
         margin-left: 5px;
         margin-right: 5px;
     }
+    header .search-wrapper button {
+        width: 40px;
+    }
     .search-wrapper > div:last-child {
         display: flex;
         justify-content: space-around;
