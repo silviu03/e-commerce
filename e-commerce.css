@@ -663,9 +663,14 @@ footer > div > div:last-child .contact-nr {
     header .search-wrapper > div:nth-child(2) {
         height: 35px;
         margin-left: 10px;
+        margin-right: 10px;
+    }
+    .search-wrapper > div:last-child {
+        display: flex;
+        justify-content: space-around;
     }
     header .search-wrapper input {
-        width: 140px;
+        width: 130px;
     }
     header .search-wrapper > div:last-child a {
         font-size: 20px;
