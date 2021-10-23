@@ -628,3 +628,203 @@ footer > div > div:last-child .contact-nr {
     display: none !important;
 }
 
+@media screen and (max-width: 650px) {
+    body {
+      font-size: 13px;
+    }
+    header .login-and-contacts {
+        max-width: 98%;
+    }
+    header .sign-in-wrapper {
+        margin-right: 10px;
+        display: flex;
+        align-items: center;
+    }
+    header .sign-in-wrapper button {
+        width: 60px;
+    }
+    .return-policy {
+        width: 100px;
+    }
+    header .login-and-contacts > div:last-child a {
+        margin-left: 10px;
+    }
+    header .search-wrapper > div:first-child {
+        font-size: 25px;
+    }
+    header .search-wrapper .e-logo {
+        width: 40px;
+        height: 40px;
+        margin-right: 5px;
+    }
+    header .search-wrapper .all-categories {
+        display: none;
+    }
+    header .search-wrapper > div:nth-child(2) {
+        height: 35px;
+        margin-left: 10px;
+    }
+    header .search-wrapper input {
+        width: 140px;
+    }
+    header .search-wrapper > div:last-child a {
+        font-size: 20px;
+        margin-right: 10px;
+    }
+    header .nav-wrapper {
+        height: 60px;
+    }
+    header .drop-down {
+        height: 40px;
+        padding: 0 5px;
+    }
+    header .nav-wrapper .drop-down a {
+        font-size: 14px;
+        display: flex;
+        width: 115px;
+    }
+    .drop-down-categories {
+        top: 40px;
+    }
+    header .nav-wrapper nav {
+        display: none;
+    }
+    header .nav-wrapper button {
+        height: 40px;
+        font-size: 14px;
+        margin-left: 10px;
+    }
+    .section-1 {
+        flex-direction: column;
+        background-color: #fff;
+        height: 520px;
+    }
+    .section-1 .img-wrapper {
+        height: 300px;
+    }
+    .section-1 > div:last-child h1 {
+        font-size: 2rem;
+    }
+    .section-1 > div {
+        width: 100%;
+    }
+    .section-1 > div:last-child button {
+        width: 100%;
+        height: 40px;
+        color: #fff;
+        font-size: 14px;
+    }
+    .section-2 {
+        margin-top: 0;
+    }
+    .section-2 > div:first-child > div{
+        gap: 0.5em;
+        height: 230px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .section-2 > div:first-child span {
+        font-size: 16px;
+    }
+    .section-2 > div:last-child > div {
+        margin-top: 15px;
+        padding-left: 5px;
+        font-size: 14px;
+    }
+    .section-2 > div:last-child > div a {
+        text-align: center;
+    }
+    .section-2 > div:last-child > div span {
+        display: block;
+    }
+    .section-2 > div:last-child > div i {
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+    .section-3 {
+        margin-top: 40px;
+    }
+    .section-3 > div:first-child span {
+        font-size: 1.7rem;
+    }
+    .section-3 > div:nth-child(2) > div {
+        height: 400px;
+        width: 100%;
+    }
+    .section-3 .discount {
+        top: 208px;
+        right: 22px;
+        font-size: 1.2rem;
+    }
+    .section-3 .discount span strong {
+        font-size: 2rem;
+    }
+    .section-3 .ad-wrapper > div:last-child {
+        font-size: 18px;
+    }
+    .section-3 .ad-wrapper {
+        margin-top: 30px;
+    }
+    .section-3 .ad-wrapper > div:last-child span:first-child {
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+    .section-3 > div:nth-child(2) > div .img-wrapper {
+        background-size: contain;
+    }
+    .section-4 {
+        height: 290px;
+        margin-top: 60px;
+    }
+    .section-4 > div:nth-child(2) > div {
+        height: 215px;
+    }
+    .section-4 > div:nth-child(2) .img-wrapper {
+        height: 100px;
+    }
+    .section-4 > div:nth-child(2) .comments span {
+        margin-right: 12px;
+    }
+    .section-6 {
+        flex-direction: column;
+        height: 175px;
+    }
+    .section-6 > div:first-child {
+        margin: 20px 0;
+        text-align: center;
+    }
+    .section-6 > div {
+        width: 100%;
+    }
+    .section-6 > div:first-child span:first-child {
+        font-size: 2rem;
+    }
+    .section-6 > div:last-child {
+        width: 90%;
+    }
+    .section-6 input {
+        height: 40px
+    }
+    .section-6 button {
+        font-size: 20px;
+        height: 40px;
+    }
+    footer {
+        text-align: center;
+        padding: 40px 20px;
+    }
+    footer > div {
+        flex-wrap: wrap;
+    }
+    footer > div > div {
+        width: 50%;
+    }
+    footer > div > div:first-child {
+        width: 100%;
+    }
+    footer .footer-title {
+        justify-content: center;
+    }
+
+  }
+
